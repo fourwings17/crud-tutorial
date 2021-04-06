@@ -1,0 +1,30 @@
+
+.paging_wrap {
+    margin: 10px auto;
+    width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 0 5px;
+  padding: 3px 6px;
+  background-color: white;
+  border: 1px solid #ddd;
+  outline: none;  
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.active {
+  background-color:#ddd;
+  color: rgb(139, 136, 136);  
+  cursor: default;
+}
+
+
+button:hover {
+  background-color: rgb(214, 176, 214);
+  color: white;
+}

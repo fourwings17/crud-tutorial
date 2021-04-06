@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+
+}
+
+
+footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
